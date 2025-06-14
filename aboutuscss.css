@@ -1,0 +1,84 @@
+ :root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --bg-soft: #f4f6f7;
+}
+
+ body {
+      
+      margin: 0;
+      padding: 0;
+        background-color: black;
+  /*  background-color: var(--bg-soft);*/
+    font-family: 'Arial', sans-serif;
+    position: relative;
+    z-index: 1;
+    background: transparent;
+    }
+    .video-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      border-radius: 10px ;
+      background-color:  rgba(255, 255, 255, 0.76);;
+      backdrop-filter: blur (20px);
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+        font-weight: 900;
+      color: #818181;
+      text-align: center;
+    }
+
+    h2 {
+        font-weight: 900;
+      color: #818181;
+      margin-top: 30px;
+    }
+
+    p {
+        font-weight: 700;
+        color: #000000;
+      line-height: 1.6;
+      margin: 10px 0;
+    }
+
+    ul {
+        font-weight: 700;
+        color: #000000;
+      margin: 10px 0 20px 20px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #999;
+      font-size: 0.9em;
+    }
+    .my-button-acceuil {
+  display: inline-block;
+  padding: 8px 15px; /* Petit bouton (équivalent btn-sm) */
+  font-size: 0.875rem;
+   font-weight: 700; /* Texte un peu plus petit */
+  color: rgb(252, 216, 216);
+  background-color:#000000b2 ;
+  border: 2px solid rgba(33, 122, 255, 0.596);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.my-button-acceuil:hover {
+  background-color: rgba(255, 217, 217, 0.767);
+  color: rgb(0, 0, 0);
+}
